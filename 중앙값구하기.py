@@ -23,7 +23,9 @@ import math
 def solution(array):
     array = sorted(array)
     a = len(array)
+    print("1번",a)
     a = math.floor(a/2)
+    print(a)
     answer = array[a]
     print(answer)
     return answer
