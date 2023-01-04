@@ -18,10 +18,14 @@
 
 
 def solution(n):
-    a = n/2
-    print(a)
-    
     answer = []
+    
+    for i in range(n+1) :
+        if i % 2 == 0 :
+            continue
+        else : 
+            answer.append(i)
+    
     return answer
 
 
